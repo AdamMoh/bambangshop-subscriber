@@ -86,4 +86,13 @@ This is the place for you to write reflections:
 
 #### Reflection Subscriber-1
 
+1. RwLock provides better performance, scalability, and flexibility compared to Mutex in scenarios with multiple readers and occasional writers.
+
+2. In Rust, mutable static variables, like those defined with lazy_static, are generally discouraged due to potential safety and concurrency issues. Rust's ownership and borrowing system ensures memory safety at compile time, and allowing mutable static variables to be freely modified would undermine this safety guarantee.
+
 #### Reflection Subscriber-2
+1. No, i still struggle with that, and i still want to get the essential of design pattern.
+
+2. The Observer pattern provides a flexible and decoupled way to add new subscribers to the system without requiring modifications to the publisher or existing subscribers.
+
+3. No, i haven't made any test beside from the tutorial yet.
